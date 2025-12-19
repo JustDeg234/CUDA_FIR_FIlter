@@ -7,7 +7,7 @@
     GPU version should match within floating point numerical error
 */
 
-std::vector<float> FIR_output(const std::vector<float>& x, const std::vector<float>& h)
+std::vector<float> FIR_cpu_output(const std::vector<float>& x, const std::vector<float>& h)
 {
     const size_t X = x.size(); //acquire length of input
     const size_t K = h.size(); //coeffs, num of FIR taps
