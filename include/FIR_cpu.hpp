@@ -9,5 +9,5 @@ Goal: Compute the general formula for FIR filters
 
 */
 
-std::vector<float> FIR_cpu_output(const std::vector<float>& x, const std::vector<float>& h); //Note: Pass in reference to avoid duplicate storing of sample array within memory
+std::vector<float> FIR_cpu_output(const std::vector<float>& x, const std::vector<float>& h); //Note: Pass in reference to avoid duplicate storing of sample array within memory, type qualifier const means read-only, immutable
 
