@@ -1,5 +1,5 @@
 //Diego Davalos - 12/7/25
-#pragma once //NVCC cuda compiler driver supports this preprocessor directive
+#pragma once //NVCC cuda compiler driver supports this preprocessor directive, ensures header file only included once in a single compilation
 #include <vector> //array
 
 /*
